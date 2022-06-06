@@ -2,9 +2,10 @@
 Repositório criado para o desafio de projeto GIT 
 
 ## Links úteis
-[download git](https://git-scm.com/downloads)
-[documentation git](https://git-scm.com/doc)
-[sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/)
+[download git,](https://git-scm.com/downloads)
+[documentation git,](https://git-scm.com/doc)
+[sintaxe Basica Markdown,](https://www.markdownguide.org/basic-syntax/)
+[Comprimir imagens](https://tinypng.com/)
 
 ## Comandos git
 Alguns comandos aprendidos no decorrer do curso
