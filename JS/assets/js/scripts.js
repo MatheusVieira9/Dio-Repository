@@ -10,3 +10,5 @@ function decrement() {
     cout--;
     currentNumberwrapper.innerHTML = cout;
 }
+
+// Boa idéia 
