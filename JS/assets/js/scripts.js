@@ -1,12 +1,17 @@
 const currentNumberwrapper = document.getElementById('currentNumber');
-let cout = 0;
+let cnumber = 0;
+
 
 function increment() {
-    cout++;
-    currentNumberwrapper.innerHTML = cout;
+    if (cnumber < 10){
+        cnumber++;
+        currentNumberwrapper.innerHTML = cnumber;
+    }
 }
 
 function decrement() {
-    cout--;
-    currentNumberwrapper.innerHTML = cout;
+    if (cnumber > -10){
+    cnumber--;
+    currentNumberwrapper.innerHTML = cnumber;   
+    }
 }
