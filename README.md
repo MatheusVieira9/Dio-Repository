@@ -10,30 +10,24 @@ Repositório criado para o desafio de projeto GIT
 ## Comandos git
 Alguns comandos aprendidos no decorrer do curso
 
+Inicia repositório
 - git init
 
-Inicia repositório
-
+Mostra arquivos e pastas ocultas
 - ls -a
 
-Mostra arquivos e pastas ocultas
-
-- git config --global user.email “matheusv99@outlook.com”	
-- git config --global user.name Matheus
-
 Configurando o autor do commit
-
-- git add * ou git add nome do arquivo
+- git config --global user.email “matheusv99@outlook.com”	
+- git config --global user.name "Matheus"
 
 Adicionar a atualização do código ao repositório GIT
-
-- git rm nome do arquivo
+- git add * ou git add nome do arquivo
 
 Remove o arquivo do agrupamento do git
-
-- git commit -m “commit inicial”
+- git rm nome do arquivo
 
 Realizar o commit do código, (commit inicial é o nome dado para o primeiro commit de um código)
+- git commit -m “commit inicial”
 
 
 ## Alien Colors
