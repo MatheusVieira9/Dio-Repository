@@ -1,14 +1,15 @@
 const currentNumberwrapper = document.getElementById('currentNumber');
-let cout = 0;
+let cnumber = 0;
+
 
 function increment() {
-    cout++;
-    currentNumberwrapper.innerHTML = cout;
+    cnumber++;
+    currentNumberwrapper.innerHTML = cnumber;
 }
 
 function decrement() {
-    cout--;
-    currentNumberwrapper.innerHTML = cout;
+    cnumber--;
+    currentNumberwrapper.innerHTML = cnumber;
 }
 
 // Boa idéia 
