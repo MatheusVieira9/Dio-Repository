@@ -3,13 +3,15 @@ let cnumber = 0;
 
 
 function increment() {
-    cnumber++;
-    currentNumberwrapper.innerHTML = cnumber;
+    if (cnumber < 10){
+        cnumber++;
+        currentNumberwrapper.innerHTML = cnumber;
+    }
 }
 
 function decrement() {
+    if (cnumber > -10){
     cnumber--;
-    currentNumberwrapper.innerHTML = cnumber;
+    currentNumberwrapper.innerHTML = cnumber;   
+    }
 }
-
-// Boa idéia 
